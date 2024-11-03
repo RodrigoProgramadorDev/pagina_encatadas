@@ -1,0 +1,183 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > header {
+    padding: 16px;
+    background-color: #160F26;
+    color: #F2E9F2;
+}
+
+body  {
+    background-color: #0B2559;
+    background-image: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 8px;
+    font-size: 18px;
+}
+
+header nav ul {
+    text-align: right;
+}
+
+header nav li a {
+    color: #F2E9F2;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container .lista-books {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: url(imagens/constelacao-baner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.280);
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.lista-books .book img {
+    height: 160px;
+}
+
+.lista-books .book {
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-color: #f2e9f2de;
+    box-shadow: 3px 3px 8px rgba(237, 11, 11, 0.95);
+    text-align: center;
+    margin: 10px 20px;
+    width: 36%;
+}
+
+.lista-books .book p {
+    display: none;
+}
+
+.lista-books {
+    flex-wrap: wrap;
+}
+
+section {
+    padding: 16px 0;
+}
+
+#contact h2, #contact h3 {
+    padding: 10px;
+}
+
+#contact {
+    padding: 10px;
+    text-align: center;
+    color: #F2E9F2;
+    background-color: #160F26;
+    border-radius: 10px;
+    margin: 0px 10px;
+    width: 0 auto;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+    padding: 20px 0;
+    justify-content: center;
+    font-size: 30px;
+    color: #F2E9F2;
+}
+#title h2 {
+    background-color: none;
+    background-image: none;
+}
+
+#about .container {
+    background-color: #160F26;
+    color: #F2E9F2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto 10px;
+}
+
+.sobre-livro .container {
+    background-image: url(imagens/constelacao-baner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto 10px;
+}
+
+.sobre-livro .container a {
+    background-color: #0B2559;
+    color: #F2E9F2;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+
+.sobre-livro .container a:hover {
+    background-color: #5955D9;
+}
+
+.sobre-livro p,.sobre-livro h2, .sobre-livro h3 {
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #0B2559;
+    margin: 5px;
+    padding: 5px;
+}
+
+.sobre-livro p {
+    text-align: left;
+}
+
+.sobre-livro img {
+    background-color: #160F26;
+    height: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.sobre-livro .container div {
+    background-color: #160F26;
+    color: #F2E9F2;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 10px;
+}
